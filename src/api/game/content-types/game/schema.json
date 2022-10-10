@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "game",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "win": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "losing": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "chatId": {
+      "type": "uid",
+      "required": true
+    },
+    "currentNumber": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
